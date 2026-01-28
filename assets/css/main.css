@@ -50,6 +50,18 @@
   --heading-color: #ffffff;
   --surface-color: #151f2b;
   --contrast-color: #ffffff;
+ 
+}
+
+
+
+
+.one_bg{
+   background-image: url('../img/hero-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* Smooth scroll */
@@ -550,6 +562,12 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .hero{
+    min-height: 40vh;
+  }
 }
 
 .hero img {
